@@ -1,0 +1,7 @@
+---
+applications:
+- name: gs-gradle
+  memory: 1G
+  instances: 1
+  host: gs-gradle
+  disk_quota: 1G
