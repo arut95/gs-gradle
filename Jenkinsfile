@@ -12,7 +12,7 @@ pipeline {
                 echo 'Building......'
                 sh '''#!/bin/bash -x
                   gradle -v
-                  gradle build -x test
+                  gradle build
                   echo "PATH = ${PATH}"
                   echo "M2_HOME = ${M2_HOME}"
                   echo "JAVA_HOME = ${JAVA_HOME}"
